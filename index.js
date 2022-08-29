@@ -11,4 +11,4 @@ app.listen(PORT, () => {
 app.get("*", (req, res) => res.json({
 "errorCode": "errors.com.epicgames.page.not_found",
 "message": "That Url Isnt On Our Api"
-})
+}))
